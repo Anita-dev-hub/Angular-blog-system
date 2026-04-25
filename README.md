@@ -57,3 +57,28 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## Tailwind CSS (v3)
+
+Tailwind CSS v3 is integrated and configured in this project.
+
+### Usage
+
+Utility classes can be used directly in Angular templates.
+
+### Development
+
+Styles are processed automatically when running the development server:
+
+```bash
+ng serve
+```
+
+### Build
+
+To build the project with Tailwind CSS:
+
+```bash
+ng build
+```
+
